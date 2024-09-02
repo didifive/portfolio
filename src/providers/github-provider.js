@@ -81,7 +81,7 @@ const GithubProvider = ({ children }) => {
               return new Date(b.updated_at) - new Date(a.updated_at);
             }
           })
-          .slice(0, limit-1)
+          .slice(0, limit - 1)
           .map((repo) => ({
             id: repo.id,
             full_name: repo.full_name,
@@ -95,8 +95,9 @@ const GithubProvider = ({ children }) => {
           })),
         {
           id: 0,
-          full_name: "didifive/repositorios",
-          description: "Clique acima para ver todos os meus repositórios no GitHub",
+          full_name: "my-all-repositories",
+          description:
+            "Clique para ver todos os meus repositórios no GitHub",
           html_url: "https://github.com/didifive?tab=repositories",
           topics: ["github", "portfolio"],
           stargazers_count: 0,

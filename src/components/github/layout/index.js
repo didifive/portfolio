@@ -20,7 +20,7 @@ const GitHubLayout = () => {
   return (
     <>
       {githubState.loading ? (
-        <S.Loading>Loading...</S.Loading>
+        <S.Loading>Loading GitHub Profile...</S.Loading>
       ) : githubState.hasUser ? (
         <S.WrapperLayout>
           <Profile />
