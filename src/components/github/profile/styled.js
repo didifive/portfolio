@@ -2,53 +2,46 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
   display: flex;
-  align-items: flex-start;
-`;
-
-export const WrapperInfoUser = styled.div`
-  display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
-  margin-left: 8px;
-  height: 200px;
-
-  h1 {
-    font-size: 32px;
-    font-weight: bold;
-  }
-
-  h3 {
-    font-size: 18px;
-    font-weight: bold;
-  }
-
-  h4 {
-    font-size: 16px;
-    font-weight: bold;
-  }
+  height: 100%;
+  padding: 16px;
 `;
 
 export const WrapperStatusCount = styled.div`
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+`;
+
+export const StatusCount = styled.div`
+  padding: 16px;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  div {
-    margin: 8px;
-    text-align: center;
-  }
+  grid-template-columns: repeat(3, 1fr);
+`;
+
+export const StatusCountIcon = styled.div`
+  font-size: 3em;
+`;
+
+export const StatusCountAmount = styled.div`
+  font-size: 1.5em;
 `;
 
 export const WrapperUserGeneric = styled.div`
   display: flex;
+  flex-direction: column;
   align-items: center;
   margin-top: 8px;
 
-  h3 {
-    margin-right: 8px;
+  img {
+    width: 100px;
   }
 
   a {
-    font-size: 18px;
+    font-size: 2em;
     color: blue;
     font-weight: bold;
   }

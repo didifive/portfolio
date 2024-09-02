@@ -17,16 +17,20 @@ export const Wrapper = styled.div`
   border-radius: 8px;
   border: 1px solid #ccc;
   margin: 16px 16px;
-  width: 350px;
-  height: 150px;
-  align-content: center;
+  align-content: top;
+  background-color: #f5f5f5;
 `;
 
 export const WrapperLink = styled.a`
-  font-size: 16px;
+  font-size: 1.5em;
   font-weight: bold;
   margin: 8px 0;
   color: #3182ce;
+`;
+
+export const WrapperDescription = styled.div`
+  font-size: 1em;
+  margin: 8px 0;
 `;
 
 export const WrapperTopics = styled.div`

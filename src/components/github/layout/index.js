@@ -6,29 +6,30 @@ import NoSearch from "../no-search";
 import Profile from "../profile";
 
 const GitHubLayout = () => {
-  const {} = useGithub();
-  const { githubState: { hasUser, loading }, getUser, getUserRepos } = useGithub();
+  const { githubState, getUser, getUserRepos } = useGithub();
 
   useEffect(() => {
-    if (!hasUser) {
-      getUser("didifive");
-      getUserRepos("didifive");
-    }
-  }, [getUser, getUserRepos, hasUser]);
+    const gitHubUser = process.env.REACT_APP_GITHUB_USER;
 
-  return loading ? (
-    "Carregando usuário e repositórios..."
-  ) : (
-    <S.WrapperLayout>
-      {hasUser ? (
-        <>
+    if (!githubState.hasUser && gitHubUser) {
+      getUser(gitHubUser);
+      getUserRepos(gitHubUser);
+    }
+  }, [githubState.hasUser, getUser, getUserRepos]);
+
+  return (
+    <>
+      {githubState.loading ? (
+        <S.Loading>Loading...</S.Loading>
+      ) : githubState.hasUser ? (
+        <S.WrapperLayout>
           <Profile />
           <Repositories />
-        </>
+        </S.WrapperLayout>
       ) : (
         <NoSearch />
       )}
-    </S.WrapperLayout>
+    </>
   );
 };
 

@@ -6,7 +6,7 @@ const RepositoryItem = React.memo(({ fullName, description, link, topics }) => (
     <S.WrapperLink href={link} target="_new" rel="noreferrer">
       {fullName}
     </S.WrapperLink>
-    <div>{description}</div>
+    <S.WrapperDescription>{description}</S.WrapperDescription>
     <S.WrapperTopics>
       {topics.map((topic, index) => (
         <S.TopicItem key={index} index={index}>

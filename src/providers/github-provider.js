@@ -24,6 +24,10 @@ const GithubProvider = ({ children }) => {
   });
 
   const getUser = async (username) => {
+    if (!username) {
+      return;
+    }
+
     setGithubState((prevState) => ({
       ...prevState,
       loading: true,
@@ -31,6 +35,10 @@ const GithubProvider = ({ children }) => {
 
     try {
       const { data } = await apiGitHub.get(`users/${username}`);
+
+      if (!data) {
+        throw new Error("User not found");
+      }
 
       setGithubState((prevState) => ({
         ...prevState,
@@ -44,6 +52,13 @@ const GithubProvider = ({ children }) => {
           public_gists: data.public_gists,
           public_repos: data.public_repos,
         },
+      }));
+    } catch (error) {
+      console.error(error);
+      setGithubState((prevState) => ({
+        ...prevState,
+        hasUser: false,
+        user: {},
       }));
     } finally {
       setGithubState((prevState) => ({
