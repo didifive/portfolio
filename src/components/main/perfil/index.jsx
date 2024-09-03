@@ -12,13 +12,13 @@ const Profile = () => {
         rel="noreferrer"
       >
         <img src={me} alt="me" className="perfil" />
-        <p>Meu LinkedIn</p>
+        <p>Bora conectar?</p>
         <img src={linkedinLogo} alt="linkedin logo" className="linkedin" />
       </S.ProfileAside>
       <S.ProfileText>
+        <h1>Welcome! Sou Luis Zancanela</h1>
         <h2>
-          Software Engineer | Developer | Java | Spring | AZ-204 | API | Cloud |
-          SQL
+         Software Engineer | Developer | Java | Spring Boot | AZ-204 | APIs | SQL
         </h2>
         <p>
           Há mais de 2 anos, atuo com orgulho como desenvolvedor Back-End,
@@ -71,7 +71,9 @@ const Profile = () => {
           Sou apaixonado por tecnologia e adoro aprender e compartilhar
           conhecimento, especialmente quando acompanhado de café.
         </p>
-        <p><strong>#LifeLongLearning #OpenToHelp #OpenToShare</strong></p>
+        <p>
+          <strong>#LifeLongLearning #OpenToHelp #OpenToShare</strong>
+        </p>
       </S.ProfileText>
     </S.WrapperProfile>
   );

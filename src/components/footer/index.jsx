@@ -31,7 +31,7 @@ const Footer = () => {
         target="_new"
         rel="noreferrer"
       >
-        Aqui tem API do GitHub!
+        Aqui consome API do GitHub!
       </S.FooterLink>
       <S.FooterLink
         href="https://www.netlify.com/"

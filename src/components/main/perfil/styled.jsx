@@ -40,10 +40,17 @@ export const ProfileAside = styled.a`
 export const ProfileText = styled.p`
   color: #f5f5f5;
 
+  h1 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-left: 16px;
+  }
+
   h2 {
     font-size: 2.5em;
     font-weight: bold;
     margin-left: 16px;
+    margin-top: 16px;
   }
 
   p {
