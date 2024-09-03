@@ -11,7 +11,7 @@ const Profile = () => {
         target="_new"
         rel="noreferrer"
       >
-        <img src={me} alt="profile image" className="perfil" />
+        <img src={me} alt="me" className="perfil" />
         <p>Meu LinkedIn</p>
         <img src={linkedinLogo} alt="linkedin logo" className="linkedin" />
       </S.ProfileAside>
