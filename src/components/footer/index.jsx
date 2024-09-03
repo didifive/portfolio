@@ -6,11 +6,11 @@ const Footer = () => {
   return (
     <S.WrapperFooter>
       <S.FooterLink
-        href="https://luiszancanela.dev"
+        href="https://luiszancanela.dev.br"
         target="_new"
         rel="noreferrer"
       >
-        https://luiszancanela.dev
+        https://luiszancanela.dev.br
       </S.FooterLink>
       <S.FooterLink
         href="https://github.com/didifive/portfolio"
@@ -32,6 +32,13 @@ const Footer = () => {
         rel="noreferrer"
       >
         Aqui tem API do GitHub!
+      </S.FooterLink>
+      <S.FooterLink
+        href="https://www.netlify.com/"
+        target="_new"
+        rel="noreferrer"
+      >
+        Hospedado na Netlify!
       </S.FooterLink>
     </S.WrapperFooter>
   );
