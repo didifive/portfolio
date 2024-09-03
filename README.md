@@ -1,72 +1,62 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/947bcbd3-022a-4c09-84b7-06b47e1859ee/deploy-status)](https://app.netlify.com/sites/luiszancaneladev/deploys)
 
-# Getting Started with Create React App
+![Repository language count](https://img.shields.io/github/languages/count/didifive/portfolio)
+![Repository code size](https://img.shields.io/github/languages/code-size/didifive/portfolio)
+[![GitHub last commit](https://img.shields.io/github/last-commit/didifive/portfolio?color=blue)](https://github.com/didifive/peoplehub/commits/master)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Made by Didi](https://img.shields.io/badge/made%20by-Didi-green)](https://luiszancanela.dev.br/)
 
-## Available Scripts
+[![JavaScript](https://img.shields.io/static/v1?color=yellow&label=Dev&message=JavaScript&style=for-the-badge&logo=JavaScript)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Introduction)
+[![React](https://img.shields.io/static/v1?color=blue&label=Dev&message=React&style=for-the-badge&logo=React)](https://react.dev/)
 
-In the project directory, you can run:
 
-### `npm start`
+# Meu Portifolio
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🎯 Objetivo
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+O objetivo desse projeto é poder criar uma página própria de portifolio, sendo ela mesma já um projeto "ao vivo".
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📜 Tecnologias
 
-### `npm run build`
+Feito com
+- Node.js v20.17.0
+- React
+- Javascript 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Hospedado em:
+- Netlify
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🚀 Iniciando o projeto
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Primeiramente é necessário ter o Node.js instalado, de preferência versão igual ou superior à utilizada (citada acima).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Com o projeto baixado inicie executando o comando `npm install`. Isso irá fazer com que o npm baixe os módulo para o projeto poder ser executado.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Antes de executar é importante criar as variáveis de ambiente abaixo, para isso basta criar um arquivo chamado `.env.local` na raiz do projeto e incluir as variaveis:
+- `REACT_APP_GITHUB_USER=seu_usuario_github` - Aqui você substitui "seu_usuario_github" pelo seu usuário do GitHub
+- `REACT_APP_GITHUB_TOKEN=seu_token_github` - Aqui você substitui "seu_token_github", para saber como criar o token visite [Managing your personal access tokens](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Depois basta executar o comando `npm run start` para executar o projeto.
 
-## Learn More
+Pronto! Projeto em execução, basta fazer as alterações e melhorias desejadas e conferir o resultado em tempo real localmente.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📝 TODO
 
-### Code Splitting
+- Testes unitários no que já tem pronto
+- Adicionar página de contato
+- Criar painel para destacar projetos
+- Melhorar descrição e utilizar imagens para destacar tecnologias principais
+- Melhorar painel do GitHub para permitir interação com busca de repositorios
+- Adicionar responsividade
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+📋 Qualquer dúvida, sugestão ou crítica é só entrar em contato ou abrir uma Issue (https://github.com/didifive).
+💚 Feito com muita dedicação. #EnjoyThis

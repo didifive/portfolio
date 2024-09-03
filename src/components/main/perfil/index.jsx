@@ -18,30 +18,21 @@ const Profile = () => {
       <S.ProfileText>
         <h1>Welcome! Sou Luis Zancanela</h1>
         <h2>
-         Software Engineer | Developer | Java | Spring Boot | AZ-204 | APIs | SQL
+          Software Engineer | Developer | Java | Spring Boot | AZ-204 | APIs |
+          SQL
         </h2>
         <p>
           Há mais de 2 anos, atuo com orgulho como desenvolvedor Back-End,
-          utilizando principalmente Java, Spring Boot, Apache Camel, Azure
-          Cloud, DevOps e metodologia ágil para clientes do mercado bancário
-          trabalhando com APIs middlewares e atendendo diversos negócios.
-        </p>
-        <p>
-          Minha jornada na área de TI começou há mais de 20 anos, com estudos e
-          criação de sites pessoais. Nos últimos 17 anos, trabalhei como
-          profissional de TI, atendendo diversas áreas de negócios do setor
-          público, especialmente a tributária, desenvolvendo fórmulas de
-          cálculos de tributos e relatórios com SQL.
-        </p>
-        <p>
-          Com o tempo, também adquiri formação e experiência em gestão, o que
-          ampliou minha visão sobre a importância da tecnologia nos negócios e
-          vice-versa. Estou concluindo o curso de Sistemas de Informação
-          (dez/2024) e já sou graduado em Administração de Empresas.
+          utilizando principalmente{" "}
+          <strong>Java, Spring Boot, Apache Camel, Azure Cloud, DevOps</strong>{" "}
+          e metodologia ágil para clientes do mercado bancário trabalhando com
+          <strong> APIs middlewares e gateways </strong> e atendendo diversos
+          negócios.
         </p>
         <p>
           <strong>Certificados:</strong>
-          <br />- Microsoft Associate: Azure Developer Associate (AZ-204)
+          <br />- Microsoft Associate:{" "}
+          <strong>Azure Developer Associate (AZ-204)</strong>
           <br />- Microsoft Fundamentals: Azure Fundamentals (AZ-900), Azure
           Data Fundamentals (DP-900), Azure AI Fundamentals (AI-900) e Security,
           Compliance, and Identity Fundamentals (SC-900)
@@ -57,9 +48,9 @@ const Profile = () => {
           <br />- Banco de Dados e ORMs: Sybase, MySQL, Postgres, SQL Server,
           MongoDB, ORMs, JDBC e JPA
           <br />- Devops: Git, GitHub, GitLab, Azure DevOps, Terraform e Docker
-          - Cloud: Azure
+          <br />- Cloud: Azure
           <br />
-          - Aplicações: Microservices, MVC, Monolith, mensageria, REST API e WEB
+          - Aplicações: Microservices, MVC, Monolith, MQs, REST API e WEB
           Systems
           <br />- Código Limpo, Arquitetura Limpa, Arquitetura Cebola, TDD e
           BDD, SOLID, 12Factors, testes unitários, testes de integração e testes
@@ -68,8 +59,10 @@ const Profile = () => {
           <br />- Monitoramento: Splunk e Azure Monitor
         </p>
         <p>
-          Sou apaixonado por tecnologia e adoro aprender e compartilhar
-          conhecimento, especialmente quando acompanhado de café.
+          <strong>
+            Sou apaixonado por tecnologia e adoro aprender e compartilhar
+            conhecimento, especialmente quando acompanhado de café.
+          </strong>
         </p>
         <p>
           <strong>#LifeLongLearning #OpenToHelp #OpenToShare</strong>
